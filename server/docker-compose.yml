@@ -1,0 +1,10 @@
+services:
+  fast-radio-transcoder:
+    build: .
+    container_name: fast-radio-transcoder
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "${PORT:-8080}:8080"
+    mem_limit: 768m
+    cpus: 1.5

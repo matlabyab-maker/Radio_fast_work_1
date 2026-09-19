@@ -1,0 +1,3 @@
+Build fix: Android Gradle Plugin 8.10.0 + Gradle 8.11.1 + compileSdk/targetSdk 36.
+This addresses Media3 1.11.0 AAR metadata requiring compileSdk 36.
+The radio icon selector change from the previous test version is retained.
