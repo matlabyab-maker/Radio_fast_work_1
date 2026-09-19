@@ -1,21 +1,19 @@
 plugins { id 'com.android.application' }
 
 android {
-    namespace 'com.fast.radiofinal5'
+    namespace 'com.fast.radio'
     compileSdk 36
-
     defaultConfig {
-        applicationId 'com.fast.radiofinal5'
+        applicationId 'com.fast.radio.final9'
         minSdk 23
         targetSdk 36
-        versionCode 2
-        versionName '1.1'
+        versionCode 9
+        versionName '9.0'
     }
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.7.0'
-    implementation 'androidx.activity:activity:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.7.1'
     implementation 'androidx.media3:media3-exoplayer:1.11.0'
     implementation 'androidx.media3:media3-exoplayer-hls:1.11.0'
     implementation 'androidx.media3:media3-exoplayer-dash:1.11.0'
